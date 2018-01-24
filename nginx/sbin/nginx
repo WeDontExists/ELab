@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /opt/bitnami/scripts/setenv.sh
+
+exec /opt/bitnami/nginx/sbin/.nginx.bin -p /opt/bitnami/nginx/ "$@"
