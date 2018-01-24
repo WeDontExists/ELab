@@ -1,0 +1,88 @@
+============ CHANGELOG =============
+
+Version 1.10.1-1      2016-07-22
+* Updated PHP to 5.6.24 (Security release: HTTP_PROXY is improperly trusted by some PHP libraries and applications)
+* Blocked Proxy request header in the web server (Security issue CVE-2016-5385, CVE-2016-5387, CVE-2016-1000110)
+* Updated phpMyAdmin to 4.6.3
+* Updated PHP to 5.6.23
+* Updated MySQL to 5.6.31
+
+Version 1.10.1-0      2016-06-01
+* Updated Nginx to 1.10.1 (Security release CVE-2016-4450)
+* Updated phpMyAdmin to 4.6.2
+* Updated PHP to 5.6.22 (Security release CVE-2016-5096, CVE-2016-5094, CVE-2013-7456, CVE-2016-5093)
+* Updated phpMyAdmin to 4.6.1
+
+Version 1.10.0-2      2016-05-06
+* Updated policy of ImageMagick (disabled TEXT, SHOW, WIN, PLT) (Security CVE-2016-3714)
+* Updated PHP to 5.6.21 (Security release CVE-2016-3074)
+* Updated OpenSSL to 1.0.2h (Security release CVE-2016-2108 CVE-2016-2107)
+
+Version 1.10.0-1      2016-05-04
+* Modified policy of ImageMagick (Security CVE-2016-3714)
+
+Version 1.10.0-0      2016-04-29
+* Updated Nginx to 1.10.0
+
+Version 1.9.15-1      2016-04-22
+* Updated Nginx to 1.9.15
+
+Version 1.9.14-0      2016-04-18
+* Disabled pagespeed module for Nginx
+* Updated Nginx to 1.9.14
+* Updated PHP to 5.6.20
+* Updated MySQL to 5.6.30
+* Updated phpMyAdmin to 4.6.0
+* Updated OpenSSL to 1.0.2g (Security release CVE-2016-0800)
+
+Version 1.9.10-0      2016-02-03
+* Updated Nginx to 1.9.10
+* Updated phpMyAdmin to 4.5.4.1
+* Updated libpng to 1.5.26 (Security release CVE-2015-8540)
+
+Version 1.9.9-0      2015-12-20
+* Updated Nginx to 1.9.9
+* Updated MySQL to 5.6.28
+* Updated phpMyAdmin to 4.5.2
+
+Version 1.9.7-0      2015-11-18
+* Updated Nginx to 1.9.7
+
+Version 1.9.6-1      2015-11-17
+* Updated libpng to 1.5.24 (security issue)
+* Updated Nginx to 1.9.6 
+* Updated Varnish to 4.1.0
+* Updated MySQL to 5.6.27
+* Updated PHP to 5.5.29
+* Updated phpMyAdmin to 4.4.13.1
+* Updated docs/demo files
+
+Version 1.8.0-0      2015-05-15
+* Updated Nginx to 1.8.0 
+* Updated phpMyAdmin to 4.4.3
+* Updated PHP to 5.4.40
+* Updated MySQL to 5.5.42 for Linux and Windows
+
+
+Version 1.6.2-1      2014-10-21
+* (Version only available for OS X)
+* Fix MySQL startup issue for OS X Yosemite
+* Updated PHP to 5.4.34
+
+Version 1.6.2-1      2014-10-16
+* Disabled SSLv3 protocol by default.
+* Added OCI8 module. It requires InstantClient 11.2.
+* Updated phpMyAdmin to 4.2.9.1
+* Updated MySQL to 5.5.40
+* Updated PHP to 5.4.33
+
+Version 1.6.2-0      2014-09-23
+* Updated Nginx to 1.6.2
+
+Version 1.6.1-0      2014-08-25
+* Updated phpMyAdmin to 4.2.8
+* Updated MySQL to 5.5.39
+* Updated PHP to 5.4.32
+* Initial release
+* Bundles with Nginx 1.6.1, PHP 5.4.31, MySQL 5.5.38 and
+phpMyAdmin 4.2.7.1
