@@ -1,0 +1,2 @@
+/opt/bitnami/var/init/post-start/040_update_ip: 17: /opt/bitnami/var/init/post-start/040_update_ip: /opt/bitnami/apps/*/bnconfig: not found
+Starting gonit daemon
